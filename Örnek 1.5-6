@@ -1,0 +1,6 @@
+int x=50, y=50, z=100;
+x -= 5;//x'den 5'i çıkar ve x'e eşitle 2.yol x = x - 5 şeklinde de yazılabilir.
+y -= 7;//y'den 7’yi çıkar ve y'ye eşitle 2.yol y = y - 7 şeklinde de yazılabilir.
+z -= x;//z'den x'i çıkar ve z'ye eşitle 2.yol z = z - x şeklinde de yazılabilir.
+İşlem sonucu: x=45, y=43, z=55 olur.
+Not: Bir bir azaltma işlemi için x-=1 (veya x=x-1) yerine x-- işlemi kullanılabilir
